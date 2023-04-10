@@ -5,6 +5,7 @@
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import { products } from "@/products";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,10 +40,12 @@ export default function Home() {
             className="group"
           >
             <div className="aspect-h-1 aspect-w-1 hover:ring-gray-300 cursor-pointer ring ring-gray-100 ring-offset-4 w-full overflow-hidden rounded-lg bg-slate-200 xl:aspect-h-8 xl:aspect-w-7">
-              <img
+              <Image
+                width={500}
+                height={500}
                 src={product.imageSrc}
                 alt={product.name}
-                className="h-full w-full object-cover object-center group-hover:opacity-75"
+                className="object-cover object-center group-hover:opacity-75"
               />
             </div>
             <h3 className="mt-4 text-sm text-gray-7d00">{product.name}</h3>
