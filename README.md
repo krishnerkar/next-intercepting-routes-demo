@@ -4,6 +4,12 @@ Using the new features of [Next 13.3](nextjs.org/blog/next-13-3#parallel-routes-
 
 [Get in touch via twitter if you have questions](https://twitter.com/krishnerkar)
 
+Demo : 
+
+try it yourself [here](https://next-intercepting-routes-demo.vercel.app/)
+
+https://user-images.githubusercontent.com/49949733/230903133-0638e25a-c3e0-4197-8c4b-5bc845c096d4.mp4
+
 
 ## Development
 
