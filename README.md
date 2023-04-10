@@ -10,7 +10,7 @@ Using the new features of [Next 13.3](nextjs.org/blog/next-13-3#parallel-routes-
 1. Clone the repo
 
 ```
-git clone [github https url]
+git clone https://github.com/krishnerkar/next-intercepting-routes-demo.git
 ```
 
 2. Install packages
