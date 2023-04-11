@@ -31,7 +31,18 @@ export default function Home() {
           Parallel routes
         </a>
       </h2>
-
+      <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkrishnerkar%2Fnext-intercepting-routes-demo">
+        <button className="bg-blue-600 hover:bg-blue-700 flex items-center justify-between gap-4 mt-4 text-white px-4 py-2 rounded-md">
+          <Image
+            width={15}
+            height={15}
+            src="/vercel.svg"
+            alt="Deploy with Vercel"
+          />
+          <div className="h-8 w-[0.5px] bg-gray-100 opacity-50" />
+          Deploy with Vercel
+        </button>
+      </a>
       <div className="grid grid-cols-1 mt-24 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
         {products.map((product) => (
           <Link
